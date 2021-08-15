@@ -3,9 +3,15 @@
           # source   code 
           
           import random
+          
 CIN = random.randint(1094785800,9999999999)
+
 TID=random.randint(12345555,543211111)
+
 FN=random.randint(123455,5432111)
+
+
+
 pin_code = 1234
 amount = 100000
 acc_no = 20424637245
@@ -23,7 +29,6 @@ if pc==pin_code:
         print("5. PAY INSURANCE PREMIUM .")
         print("6. APPLY FOR PERSONAL LOANS .")
         print("7. EXIT .")
-        
         choice=int(input("ENTER YOUR CHOICE : "))
         
            #     BANKING   PARTS   START     HERE
